@@ -184,6 +184,17 @@
         <elementParameter xmi:id="_uC5n_AaKEeS4cNdBQ0vAgg" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_F1LGAAdWEeSQfal6agcJpg">
+      <baseItem xmi:id="_F1LGAQdWEeSQfal6agcJpg" id="_vrQBgAdVEeSQfal6agcJpg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_F1LGAgdWEeSQfal6agcJpg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGAwdWEeSQfal6agcJpg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGBAdWEeSQfal6agcJpg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGBQdWEeSQfal6agcJpg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGBgdWEeSQfal6agcJpg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGBwdWEeSQfal6agcJpg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGCAdWEeSQfal6agcJpg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_F1LGCQdWEeSQfal6agcJpg" id="TalendDataGenerator" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_bM2hMAaFEeS-7vvOUeaUYQ" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_bM2hMQaFEeS-7vvOUeaUYQ" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>
     <migrationTask xmi:id="_bM2hMwaFEeS-7vvOUeaUYQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -365,7 +376,7 @@
     <migrationTask xmi:id="_bM4WZgaFEeS-7vvOUeaUYQ" id="org.talend.repository.model.migration.SettingValuesIntoHadoopPropertiesFortHiveConnection" breaks="5.2.1" version="5.2.2" status="ok"/>
     <migrationTask xmi:id="_bM4WZwaFEeS-7vvOUeaUYQ" id="org.talend.repository.model.migration.ChangeHadoopVersionValue4TDQComponents" breaks="5.2.1" version="5.2.2" status="ok"/>
     <migrationTask xmi:id="_bM4WaAaFEeS-7vvOUeaUYQ" id="org.talend.repository.model.migration.ChangeSalesForceComponetsCustomerModuleName" breaks="5.2.2" version="5.2.3" status="ok"/>
-    <migrationTask xmi:id="_AtY-AQbAEeSfl8J80l8Now" id="org.talend.repository.model.migration.UpdateExistentMigrationTasksToAdaptNewMigrationSystemMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="_rpH6wQdTEeSQfal6agcJpg" id="org.talend.repository.model.migration.UpdateExistentMigrationTasksToAdaptNewMigrationSystemMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_bEz_ggaFEeS-7vvOUeaUYQ" login="test@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
   <TalendProperties:ExchangeUser xmi:id="_bE0mkAaFEeS-7vvOUeaUYQ" username="vikram.takkar@yahoo.co.in" login="notused" password="marker.netweb"/>
